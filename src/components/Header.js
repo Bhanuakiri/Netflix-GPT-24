@@ -14,7 +14,6 @@ const Header = () => {
     signOut(auth).then(() => {
     }).catch((error) => {
       navigate("/error");
-      // An error happened.
     });
 
   };
